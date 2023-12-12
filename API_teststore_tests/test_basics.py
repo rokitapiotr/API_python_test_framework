@@ -17,8 +17,6 @@ def test_getPetById_response():
     assert len(data) > 0, "empty response"
 
 
-# testing response body for 'ID' key
-
 def test_getPetById_id():
     url = BASE_URI + pet_ID
     header = {
@@ -36,11 +34,11 @@ def test_addNewPet():
         'Content-Type': 'application/json'
     }
     payload = {
-        'id': 191,
+        'id': 151,
         'name': 'Cutie',
         'status': 'available'
     }
     response = requests.post(url, verify=False, json=payload, headers=header)
     data = response.json()
-    assert data['id'] == 191
+    assert data['id'] == 151
     assert len(data) > 0, "empty response"

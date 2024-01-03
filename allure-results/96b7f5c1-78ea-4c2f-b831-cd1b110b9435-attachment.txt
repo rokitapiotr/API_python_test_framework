@@ -1,0 +1,7 @@
+Request URL: http://127.0.0.1:5000/api/register
+Response Body: {"email": "sample_user@example.com", "password": "1234"}
+Registration Response: {
+  "msg": "Username or Password Exists", 
+  "status": 422
+}
+

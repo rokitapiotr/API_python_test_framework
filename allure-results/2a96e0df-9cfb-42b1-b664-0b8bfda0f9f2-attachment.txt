@@ -1,0 +1,279 @@
+Request URL: http://127.0.0.1:5000/api/login
+Response Body: {"email": "sample_user@example.com", "password": "1234"}
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjUiLCJleHAiOjE3MDQyODAzNTB9.eXex3p_E4U0BF4eIofQ0QvkHYnMHTg5yDesitt6k04s
+Request URL: http://127.0.0.1:5000/api/users
+Request Header: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'Content-Type': 'application/json', 'x-access-token': 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjUiLCJleHAiOjE3MDQyODAzNTB9.eXex3p_E4U0BF4eIofQ0QvkHYnMHTg5yDesitt6k04s'}
+Response Header: {'Content-Type': 'application/json', 'Content-Length': '3284', 'Server': 'Werkzeug/2.0.3 Python/3.11.4', 'Date': 'Wed, 03 Jan 2024 10:57:30 GMT'}
+Response Content: {
+  "users": [
+    {
+      "authenticated": true, 
+      "email": "admin@admin", 
+      "id": 1, 
+      "registered_on": "2022-03-07T20:33:20.763559"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "user1@user", 
+      "id": 2, 
+      "registered_on": "2022-03-08T00:52:52.872602"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "kk@admin", 
+      "id": 3, 
+      "registered_on": "2022-03-08T13:01:22.802225"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "autom1@auto", 
+      "id": 4, 
+      "registered_on": "2023-02-03T01:19:41.509037"
+    }, 
+    {
+      "authenticated": true, 
+      "email": "sample_user@example.com", 
+      "id": 5, 
+      "registered_on": "2023-12-17T16:12:05.909988"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "auto1@auto", 
+      "id": 6, 
+      "registered_on": "2023-12-17T19:58:12.477630"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "auto2@auto", 
+      "id": 7, 
+      "registered_on": "2023-12-17T19:58:14.008361"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "auto3@auto", 
+      "id": 8, 
+      "registered_on": "2023-12-17T19:58:15.513486"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "auto4@auto", 
+      "id": 9, 
+      "registered_on": "2023-12-17T19:58:17.023028"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "auto5@auto", 
+      "id": 10, 
+      "registered_on": "2023-12-17T19:58:18.527380"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "auto6@auto", 
+      "id": 11, 
+      "registered_on": "2023-12-17T19:58:20.074127"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "", 
+      "id": 12, 
+      "registered_on": "2023-12-17T21:08:27.655538"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "autom2@auto", 
+      "id": 13, 
+      "registered_on": "2023-12-17T21:17:04.663304"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "autom3@auto", 
+      "id": 14, 
+      "registered_on": "2023-12-17T21:20:18.372916"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "autom4@auto", 
+      "id": 15, 
+      "registered_on": "2023-12-17T21:23:12.929560"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "sample_user@5example.com", 
+      "id": 16, 
+      "registered_on": "2023-12-17T23:11:07.791505"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "sample_user@xexample.com", 
+      "id": 17, 
+      "registered_on": "2023-12-17T23:11:57.272929"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "sample_user@example5.com", 
+      "id": 18, 
+      "registered_on": "2023-12-17T23:12:36.917413"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "sample_user@255example.com", 
+      "id": 19, 
+      "registered_on": "2023-12-17T23:14:13.345948"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "sample_user@112example.com", 
+      "id": 20, 
+      "registered_on": "2023-12-17T23:16:19.320418"
+    }, 
+    {
+      "authenticated": false, 
+      "email": "sample_user@4example.com", 
+      "id": 21, 
+      "registered_on": "2023-12-17T23:22:49.170945"
+    }, 
+    {
+      "authenticated": true, 
+      "email": "sample_user@55example.com", 
+      "id": 22, 
+      "registered_on": "2023-12-17T23:38:39.802008"
+    }
+  ]
+}
+
+{
+    "users": [
+        {
+            "authenticated": true,
+            "email": "admin@admin",
+            "id": 1,
+            "registered_on": "2022-03-07T20:33:20.763559"
+        },
+        {
+            "authenticated": false,
+            "email": "user1@user",
+            "id": 2,
+            "registered_on": "2022-03-08T00:52:52.872602"
+        },
+        {
+            "authenticated": false,
+            "email": "kk@admin",
+            "id": 3,
+            "registered_on": "2022-03-08T13:01:22.802225"
+        },
+        {
+            "authenticated": false,
+            "email": "autom1@auto",
+            "id": 4,
+            "registered_on": "2023-02-03T01:19:41.509037"
+        },
+        {
+            "authenticated": true,
+            "email": "sample_user@example.com",
+            "id": 5,
+            "registered_on": "2023-12-17T16:12:05.909988"
+        },
+        {
+            "authenticated": false,
+            "email": "auto1@auto",
+            "id": 6,
+            "registered_on": "2023-12-17T19:58:12.477630"
+        },
+        {
+            "authenticated": false,
+            "email": "auto2@auto",
+            "id": 7,
+            "registered_on": "2023-12-17T19:58:14.008361"
+        },
+        {
+            "authenticated": false,
+            "email": "auto3@auto",
+            "id": 8,
+            "registered_on": "2023-12-17T19:58:15.513486"
+        },
+        {
+            "authenticated": false,
+            "email": "auto4@auto",
+            "id": 9,
+            "registered_on": "2023-12-17T19:58:17.023028"
+        },
+        {
+            "authenticated": false,
+            "email": "auto5@auto",
+            "id": 10,
+            "registered_on": "2023-12-17T19:58:18.527380"
+        },
+        {
+            "authenticated": false,
+            "email": "auto6@auto",
+            "id": 11,
+            "registered_on": "2023-12-17T19:58:20.074127"
+        },
+        {
+            "authenticated": false,
+            "email": "",
+            "id": 12,
+            "registered_on": "2023-12-17T21:08:27.655538"
+        },
+        {
+            "authenticated": false,
+            "email": "autom2@auto",
+            "id": 13,
+            "registered_on": "2023-12-17T21:17:04.663304"
+        },
+        {
+            "authenticated": false,
+            "email": "autom3@auto",
+            "id": 14,
+            "registered_on": "2023-12-17T21:20:18.372916"
+        },
+        {
+            "authenticated": false,
+            "email": "autom4@auto",
+            "id": 15,
+            "registered_on": "2023-12-17T21:23:12.929560"
+        },
+        {
+            "authenticated": false,
+            "email": "sample_user@5example.com",
+            "id": 16,
+            "registered_on": "2023-12-17T23:11:07.791505"
+        },
+        {
+            "authenticated": false,
+            "email": "sample_user@xexample.com",
+            "id": 17,
+            "registered_on": "2023-12-17T23:11:57.272929"
+        },
+        {
+            "authenticated": false,
+            "email": "sample_user@example5.com",
+            "id": 18,
+            "registered_on": "2023-12-17T23:12:36.917413"
+        },
+        {
+            "authenticated": false,
+            "email": "sample_user@255example.com",
+            "id": 19,
+            "registered_on": "2023-12-17T23:14:13.345948"
+        },
+        {
+            "authenticated": false,
+            "email": "sample_user@112example.com",
+            "id": 20,
+            "registered_on": "2023-12-17T23:16:19.320418"
+        },
+        {
+            "authenticated": false,
+            "email": "sample_user@4example.com",
+            "id": 21,
+            "registered_on": "2023-12-17T23:22:49.170945"
+        },
+        {
+            "authenticated": true,
+            "email": "sample_user@55example.com",
+            "id": 22,
+            "registered_on": "2023-12-17T23:38:39.802008"
+        }
+    ]
+}

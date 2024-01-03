@@ -1,0 +1,8 @@
+Request URL: http://127.0.0.1:5000/api/allusercount
+Request Header: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'multipart/mixed', 'Connection': 'keep-alive', 'Content-Type': 'application/json'}
+Response Header: {'Content-Type': 'text/html; charset=utf-8', 'Content-Length': '363', 'Server': 'Werkzeug/2.0.3 Python/3.11.4', 'Date': 'Wed, 03 Jan 2024 10:57:29 GMT'}
+Response Content: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<title>406 Not Acceptable</title>
+<h1>Not Acceptable</h1>
+<p>The resource identified by the request is only capable of generating response entities which have content characteristics not acceptable according to the accept headers sent in the request. Supported entities are: application/json, text/html</p>
+

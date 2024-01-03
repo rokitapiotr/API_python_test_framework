@@ -1,0 +1,11 @@
+Request URL: http://127.0.0.1:5000/api/allusercount
+Request Header: {'User-Agent': 'python-requests/2.31.0', 'Accept-Encoding': 'gzip, deflate', 'Accept': 'application/json', 'Connection': 'keep-alive', 'Content-Type': 'application/json'}
+Response Header: {'Content-Type': 'application/json', 'Content-Length': '83', 'Server': 'Werkzeug/2.0.3 Python/3.11.4', 'Date': 'Wed, 03 Jan 2024 10:57:15 GMT'}
+Response Content: {
+  "count": 22, 
+  "status": {
+    "message": "success", 
+    "status": 200
+  }
+}
+

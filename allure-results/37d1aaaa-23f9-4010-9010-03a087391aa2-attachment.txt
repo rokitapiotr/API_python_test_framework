@@ -1,0 +1,4 @@
+http://127.0.0.1:5000/api/register
+{'email': 'auto1@auto', 'password': '1234'}
+Request URL: http://127.0.0.1:5000/api/register
+Response Body: {"email": "auto1@auto", "password": "1234"}

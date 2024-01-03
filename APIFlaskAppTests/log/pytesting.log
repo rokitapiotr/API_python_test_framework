@@ -1,0 +1,5 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:244 Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG    urllib3.connectionpool:connectionpool.py:244 Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG    urllib3.connectionpool:connectionpool.py:244 Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG    urllib3.connectionpool:connectionpool.py:244 Starting new HTTP connection (1): 127.0.0.1:5000
+DEBUG    urllib3.connectionpool:connectionpool.py:244 Starting new HTTP connection (1): 127.0.0.1:5000

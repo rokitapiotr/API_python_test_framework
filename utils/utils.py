@@ -28,4 +28,3 @@ def deleteData(url, optionalHeader=None):
     data = response.json()
     time_taken = response.elapsed.total_seconds()
     return data, response.status_code, time_taken
-
